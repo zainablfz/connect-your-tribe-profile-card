@@ -1,14 +1,21 @@
 <%- include('./partials/head') %>
 
-<article>
+<article id="article-front">
+  <img src="images/foto.jpg" alt="" width="800" height="800" />
+
   <header>
-    <h1>Hallo</h1>
-    <p>mijn naam is</p>
+    <h1 class="glow-text">Zainab el Faiz</h1>
   </header>
 
-  <p><%= data.name %></p>
+  <p class="neon-text">Student Frontend Design & Developer</p>
+  <p class="neon-text">19 jaar ♡ Amsterdam ♡ Voetbal</p>
+  <p class="neon-text">Leergierig ♡ Doorzetter ♡ Creatief</p>
 
-  <footer></footer>
+  <button class="button" style="vertical-align: middle">
+    <span>More </span>
+  </button>
+
+  <div class="article-back"></div>
 </article>
 
 <%- include('./partials/foot') %>
